@@ -6,7 +6,7 @@ const projects = [
         title: "SunwayTD",
         description:
             "A tower defense game that integrates educational questions to test users’ intellect and rewards correct answers with in-game currency to boost defense.",
-        image: "/src/assets/sunwaytd.png",
+        image: "/sunwaytd.png",
         tags: ["Unity", "C#", "GameDev", "Education"],
         githubUrl: "https://github.com/Chaosdrag/SunwayTD",
     },
@@ -15,7 +15,7 @@ const projects = [
         title: "Ez_PianoL",
         description:
             "An automated tool that detects and logs piano notes from Synthesia-style YouTube videos, helping users learn piano without reading sheet music.",
-        image: "/src/assets/ezpianoL.png",
+        image: "/ezpianoL.png",
         tags: ["Python", "Computer Vision", "YouTube API"],
         githubUrl: "https://github.com/Chaosdrag/ez_PianoL",
     },
@@ -24,7 +24,7 @@ const projects = [
         title: "AI-Enhanced Gameplay",
         description:
             "Games enhanced with Reinforcement Learning and Procedural Generation to improve AI adaptability and gameplay variety.",
-        image: "/src/assets/ai.png",
+        image: "/ai.png",
         tags: ["Python", "Unity", "ML-Agents", "Reinforcement Learning"],
         githubUrl: "https://github.com/Chaosdrag/CP2",
     },
@@ -33,7 +33,7 @@ const projects = [
         title: "Football Manager Web Scraper",
         description:
             "A web scraping tool that collects Football Manager data, helping users find promising wonderkids efficiently.",
-        image: "/src/assets/fm.png",
+        image: "/fm.png",
         tags: ["Python", "BeautifulSoup", "Web Scraping"],
         githubUrl: "https://github.com/Chaosdrag/Small-Projects/tree/main/FM24/FM24_WK",
     },
