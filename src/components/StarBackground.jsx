@@ -61,7 +61,7 @@ export const StarBackground = () => {
             {stars.map((star) => (
                 <img
                     key={star.id}
-                    src="/assets/pixel-star.png"
+                    src="/pixel-star.png"
                     alt="pixel star"
                     className="pixel-element"
                     style={{
@@ -78,7 +78,7 @@ export const StarBackground = () => {
             {meteors.map((meteor) => (
                 <img
                     key={meteor.id}
-                    src="/assets/sparkle.gif"
+                    src="/sparkle.gif"
                     alt="sparkle"
                     className="pixel-element"
                     style={{
