@@ -59,9 +59,10 @@ export const StarBackground = () => {
     return (
         <div className="fixed inset-0 z-0 pointer-events-none bg-[url('/sprites/tile-grass.png')] bg-repeat image-rendering-pixelated">
             {stars.map((star) => (
-                <img src="/assets/pixel-star.png" alt="pixel star"
+                <img
                     key={star.id}
-
+                    src="/assets/pixel-star.png"
+                    alt="pixel star"
                     className="pixel-element"
                     style={{
                         width: star.size + "px",
@@ -77,7 +78,7 @@ export const StarBackground = () => {
             {meteors.map((meteor) => (
                 <img
                     key={meteor.id}
-                    src="src/assets/sparkle.gif"
+                    src="/assets/sparkle.gif"
                     alt="sparkle"
                     className="pixel-element"
                     style={{
